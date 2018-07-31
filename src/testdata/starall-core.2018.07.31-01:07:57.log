@@ -1,0 +1,8 @@
+2018-07-31T01:07:57.511 GC63B [default INFO] Starting starall-core starall-core 0.1
+2018-07-31T01:07:57.511 GC63B [default INFO] Config from starall-core_testnet.cfg
+2018-07-31T01:07:57.511 GC63B [Database INFO] Connecting to: sqlite3://starall.db
+2018-07-31T01:07:57.512 GC63B [SCP INFO] LocalNode::LocalNode@GC63B qSet: 273af2
+2018-07-31T01:07:57.512 GC63B [default INFO] Listening on 127.0.0.1:11626 for HTTP requests
+2018-07-31T01:07:57.512 GC63B [default INFO] Application destructing
+2018-07-31T01:07:57.512 GC63B [default INFO] Application destroyed
+2018-07-31T01:07:57.513 GC63B [default FATAL] Got an exception: sqlite3_statement_backend::prepare: no such table: storestate [main.cpp:671]

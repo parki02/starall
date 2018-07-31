@@ -1,0 +1,34 @@
+2018-07-31T00:35:24.486 GD27L [default INFO] Starting starall-core starall-core 0.1
+2018-07-31T00:35:24.486 GD27L [default INFO] Config from starall-core_testnet.cfg
+2018-07-31T00:35:24.486 GD27L [Database INFO] Connecting to: sqlite3://:memory:
+2018-07-31T00:35:24.486 GD27L [SCP INFO] LocalNode::LocalNode@GD27L qSet: 273af2
+2018-07-31T00:35:24.487 GD27L [default INFO] Listening on 127.0.0.1:11626 for HTTP requests
+2018-07-31T00:35:24.488 GD27L [Database INFO] Applying DB schema upgrade to version 2
+2018-07-31T00:35:24.488 GD27L [Database INFO] Applying DB schema upgrade to version 3
+2018-07-31T00:35:24.488 GD27L [Database INFO] Applying DB schema upgrade to version 4
+2018-07-31T00:35:24.488 GD27L [Database INFO] Applying DB schema upgrade to version 5
+2018-07-31T00:35:24.488 GD27L [Database INFO] Applying DB schema upgrade to version 6
+2018-07-31T00:35:24.488 GD27L [default INFO] * 
+2018-07-31T00:35:24.488 GD27L [default INFO] * The database has been initialized
+2018-07-31T00:35:24.488 GD27L [default INFO] * 
+2018-07-31T00:35:24.488 GD27L [Ledger INFO] Established genesis ledger, closing
+2018-07-31T00:35:24.488 GD27L [Ledger INFO] Root account seed: SDHOAMBNLGCE2MV5ZKIVZAQD3VCLGP53P3OBSBI6UN5L5XZI5TKHFQL4
+2018-07-31T00:35:24.489 GD27L [History INFO] Archive 'h1' has 'get' command only, will not be written
+2018-07-31T00:35:24.489 GD27L [History INFO] Archive 'h2' has 'get' command only, will not be written
+2018-07-31T00:35:24.489 GD27L [History INFO] Archive 'h3' has 'get' command only, will not be written
+2018-07-31T00:35:24.489 GD27L [History WARNING] No writable archives configured, history will not be written.
+2018-07-31T00:35:24.489 GD27L [default INFO] Loading last known ledger
+2018-07-31T00:35:24.489 GD27L [Ledger INFO] Loaded last known ledger: [seq=1, hash=63d98f]
+2018-07-31T00:35:26.784 GD27L [Overlay ERROR] Unable to add peer 'core-testnet1.starall.org' [OverlayManagerImpl.cpp:178]
+2018-07-31T00:35:27.083 GD27L [Overlay ERROR] Unable to add peer 'core-testnet2.starall.org' [OverlayManagerImpl.cpp:178]
+2018-07-31T00:35:27.368 GD27L [Overlay ERROR] Unable to add peer 'core-testnet3.starall.org' [OverlayManagerImpl.cpp:178]
+2018-07-31T00:35:59.489 GD27L [Herder WARNING] Lost track of consensus
+2018-07-31T00:35:59.490 GD27L [Herder WARNING] Out of sync context: {
+   "queue" : null,
+   "scp" : null,
+   "you" : "GD27LWW2UM6GMKYOX4Q56IOB7JXWDGL6XEMIBK2C37JSSP4INPUTYHWO"
+}
+
+2018-07-31T00:45:18.857 GD27L [default INFO] got signal 2, shutting down
+2018-07-31T00:45:19.858 GD27L [default INFO] Application destructing
+2018-07-31T00:45:19.858 GD27L [default INFO] Application destroyed

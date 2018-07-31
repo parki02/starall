@@ -1,0 +1,34 @@
+root@cointeam1:~/starall-core# find . -print | xargs grep STELLAR 2>/dev/null
+
+./INSTALL-Windows.md:- `git clone PATH_TO_STELLAR_CORE`
+
+./src/test/test.cpp:bool force_sqlite = (std::getenv("STELLAR_FORCE_SQLITE") != nullptr);
+
+./src/process/ProcessManagerImpl.cpp:#define STELLAR_CORE_REAL_TIMER_FOR_CERTAIN_NOT_JUST_VIRTUAL_TIME
+./src/util/Timer.h:#ifdef STELLAR_CORE_REAL_TIMER_FOR_CERTAIN_NOT_JUST_VIRTUAL_TIME
+./src/main/ApplicationImpl.cpp:#define STELLAR_CORE_REAL_TIMER_FOR_CERTAIN_NOT_JUST_VIRTUAL_TIME
+
+./src/test/test.cpp:    LOG(INFO) << "Testing starall-core " << STELLAR_CORE_VERSION;
+./src/main/fuzz.cpp:    LOG(INFO) << "Fuzzing starall-core " << STELLAR_CORE_VERSION;
+./src/main/main.cpp:    LOG(INFO) << "Starting starall-core " << STELLAR_CORE_VERSION;
+./src/main/main.cpp:            std::cout << STELLAR_CORE_VERSION << std::endl;
+./src/main/Config.cpp:    VERSION_STR = STELLAR_CORE_VERSION;
+./src/main/StellarCoreVersion.cpp.in:const std::string STELLAR_CORE_VERSION = "%%VERSION%%";
+./src/main/StarallCoreVersion.cpp.in:const std::string STELLAR_CORE_VERSION = "%%VERSION%%";
+./src/main/ApplicationImpl.cpp:    info["build"] = STELLAR_CORE_VERSION;
+./src/main/StarallCoreVersion.h:extern const std::string STELLAR_CORE_VERSION;
+./src/main/StarallCoreVersion.cpp:const std::string STELLAR_CORE_VERSION = "fb3c473-dirty";
+./src/main/StellarCoreVersion.h:extern const std::string STELLAR_CORE_VERSION;
+./src/main/StellarCoreVersion.cpp:const std::string STELLAR_CORE_VERSION = "stellar-core 0.1";
+./src/history/HistoryArchive.cpp:HistoryArchiveState::HistoryArchiveState() : server(STELLAR_CORE_VERSION)
+./src/history/HistoryArchive.cpp:    : server(STELLAR_CORE_VERSION), currentLedger(ledgerSeq)
+
+./docs/software/commands.md:  Note that if you do not have a STELLAR_NETWORK_ID environment
+./docs/stellar-core.1:Note that if you do not have a STELLAR_NETWORK_ID environment variable,
+./docs/starall-core.1:Note that if you do not have a STELLAR_NETWORK_ID environment variable,
+./docs/stellar-core.1.in:Note that if you do not have a STELLAR_NETWORK_ID environment variable,
+./docs/starall-core.1.in:Note that if you do not have a STELLAR_NETWORK_ID environment variable,
+./src/main/dumpxdr.cpp:            signtxn_network_id = getenv("STELLAR_NETWORK_ID");
+./src/main/dumpxdr.cpp:                                     "STELLAR_NETWORK_ID environment variable");
+./src/main/main.cpp:          "                           (Default is STELLAR_NETWORK_ID "
+

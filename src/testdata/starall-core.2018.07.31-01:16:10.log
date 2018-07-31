@@ -1,0 +1,27 @@
+2018-07-31T01:16:10.864 GDN4O [default INFO] Starting starall-core starall-core 0.1
+2018-07-31T01:16:10.864 GDN4O [default INFO] Config from starall-core_testnet.cfg
+2018-07-31T01:16:10.864 GDN4O [Database INFO] Connecting to: sqlite3://:memory:
+2018-07-31T01:16:10.864 GDN4O [SCP INFO] LocalNode::LocalNode@GDN4O qSet: 273af2
+2018-07-31T01:16:10.864 GDN4O [default INFO] Listening on 127.0.0.1:11626 for HTTP requests
+2018-07-31T01:16:10.865 GDN4O [Database INFO] Applying DB schema upgrade to version 2
+2018-07-31T01:16:10.866 GDN4O [Database INFO] Applying DB schema upgrade to version 3
+2018-07-31T01:16:10.866 GDN4O [Database INFO] Applying DB schema upgrade to version 4
+2018-07-31T01:16:10.866 GDN4O [Database INFO] Applying DB schema upgrade to version 5
+2018-07-31T01:16:10.866 GDN4O [Database INFO] Applying DB schema upgrade to version 6
+2018-07-31T01:16:10.866 GDN4O [default INFO] * 
+2018-07-31T01:16:10.866 GDN4O [default INFO] * The database has been initialized
+2018-07-31T01:16:10.866 GDN4O [default INFO] * 
+2018-07-31T01:16:10.866 GDN4O [Ledger INFO] Established genesis ledger, closing
+2018-07-31T01:16:10.866 GDN4O [Ledger INFO] Root account seed: SDHOAMBNLGCE2MV5ZKIVZAQD3VCLGP53P3OBSBI6UN5L5XZI5TKHFQL4
+2018-07-31T01:16:10.867 GDN4O [History INFO] Archive 'h1' has 'get' command only, will not be written
+2018-07-31T01:16:10.867 GDN4O [History INFO] Archive 'h2' has 'get' command only, will not be written
+2018-07-31T01:16:10.867 GDN4O [History INFO] Archive 'h3' has 'get' command only, will not be written
+2018-07-31T01:16:10.867 GDN4O [History WARNING] No writable archives configured, history will not be written.
+2018-07-31T01:16:10.867 GDN4O [default INFO] Loading last known ledger
+2018-07-31T01:16:10.867 GDN4O [Ledger INFO] Loaded last known ledger: [seq=1, hash=63d98f]
+2018-07-31T01:16:13.132 GDN4O [Overlay ERROR] Unable to add peer 'core-testnet1.starall.org' [OverlayManagerImpl.cpp:178]
+2018-07-31T01:16:13.421 GDN4O [Overlay ERROR] Unable to add peer 'core-testnet2.starall.org' [OverlayManagerImpl.cpp:178]
+2018-07-31T01:16:13.705 GDN4O [Overlay ERROR] Unable to add peer 'core-testnet3.starall.org' [OverlayManagerImpl.cpp:178]
+2018-07-31T01:16:35.674 GDN4O [default INFO] got signal 2, shutting down
+2018-07-31T01:16:36.675 GDN4O [default INFO] Application destructing
+2018-07-31T01:16:36.675 GDN4O [default INFO] Application destroyed

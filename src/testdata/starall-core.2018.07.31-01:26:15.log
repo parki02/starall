@@ -1,0 +1,34 @@
+2018-07-31T01:26:15.684 GCYAM [default INFO] Starting starall-core starall-core 0.1
+2018-07-31T01:26:15.684 GCYAM [default INFO] Config from starall-core_testnet.cfg
+2018-07-31T01:26:15.684 GCYAM [Database INFO] Connecting to: sqlite3://:memory:
+2018-07-31T01:26:15.685 GCYAM [SCP INFO] LocalNode::LocalNode@GCYAM qSet: 273af2
+2018-07-31T01:26:15.685 GCYAM [default INFO] Listening on 127.0.0.1:11626 for HTTP requests
+2018-07-31T01:26:15.686 GCYAM [Database INFO] Applying DB schema upgrade to version 2
+2018-07-31T01:26:15.686 GCYAM [Database INFO] Applying DB schema upgrade to version 3
+2018-07-31T01:26:15.686 GCYAM [Database INFO] Applying DB schema upgrade to version 4
+2018-07-31T01:26:15.686 GCYAM [Database INFO] Applying DB schema upgrade to version 5
+2018-07-31T01:26:15.686 GCYAM [Database INFO] Applying DB schema upgrade to version 6
+2018-07-31T01:26:15.686 GCYAM [default INFO] * 
+2018-07-31T01:26:15.686 GCYAM [default INFO] * The database has been initialized
+2018-07-31T01:26:15.686 GCYAM [default INFO] * 
+2018-07-31T01:26:15.687 GCYAM [Ledger INFO] Established genesis ledger, closing
+2018-07-31T01:26:15.687 GCYAM [Ledger INFO] Root account seed: SDHOAMBNLGCE2MV5ZKIVZAQD3VCLGP53P3OBSBI6UN5L5XZI5TKHFQL4
+2018-07-31T01:26:15.687 GCYAM [History INFO] Archive 'h1' has 'get' command only, will not be written
+2018-07-31T01:26:15.687 GCYAM [History INFO] Archive 'h2' has 'get' command only, will not be written
+2018-07-31T01:26:15.687 GCYAM [History INFO] Archive 'h3' has 'get' command only, will not be written
+2018-07-31T01:26:15.687 GCYAM [History WARNING] No writable archives configured, history will not be written.
+2018-07-31T01:26:15.687 GCYAM [default INFO] Loading last known ledger
+2018-07-31T01:26:15.688 GCYAM [Ledger INFO] Loaded last known ledger: [seq=1, hash=63d98f]
+2018-07-31T01:26:17.836 GCYAM [Overlay ERROR] Unable to add peer 'core-testnet1.starall.org' [OverlayManagerImpl.cpp:178]
+2018-07-31T01:26:18.147 GCYAM [Overlay ERROR] Unable to add peer 'core-testnet2.starall.org' [OverlayManagerImpl.cpp:178]
+2018-07-31T01:26:18.286 GCYAM [Overlay ERROR] Unable to add peer 'core-testnet3.starall.org' [OverlayManagerImpl.cpp:178]
+2018-07-31T01:26:50.688 GCYAM [Herder WARNING] Lost track of consensus
+2018-07-31T01:26:50.688 GCYAM [Herder WARNING] Out of sync context: {
+   "queue" : null,
+   "scp" : null,
+   "you" : "GCYAMGKS2SDB5GJGR6UXZV7AEGHUEDL4APECR4P7F5Z2V37IUFR2PO72"
+}
+
+2018-07-31T02:01:17.129 GCYAM [default INFO] got signal 2, shutting down
+2018-07-31T02:01:18.130 GCYAM [default INFO] Application destructing
+2018-07-31T02:01:18.130 GCYAM [default INFO] Application destroyed

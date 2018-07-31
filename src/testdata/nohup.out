@@ -94,3 +94,104 @@
 2018-07-30T14:17:17.698 GCTI6 [History INFO] Trimming history <= ledger 0 (rmin=4294967295, qmin=1, lmin=0)
 2018-07-30T18:17:17.699 GCTI6 [default INFO] Performing maintenance
 2018-07-30T18:17:17.700 GCTI6 [History INFO] Trimming history <= ledger 0 (rmin=4294967295, qmin=1, lmin=0)
+2018-07-31T00:03:52.927 <startup> [default INFO] RUN_STANDALONE enabled in configuration file - node will not function properly with most networks
+2018-07-31T00:03:52.929 GCTI6 [default INFO] Starting starall-core starall-core 0.1
+2018-07-31T00:03:52.929 GCTI6 [default INFO] Config from starall-core_standalone.cfg
+2018-07-31T00:03:52.930 GCTI6 [Database INFO] Connecting to: sqlite3://:memory:
+2018-07-31T00:03:52.930 GCTI6 [SCP INFO] LocalNode::LocalNode@GCTI6 qSet: d05a3b
+2018-07-31T00:03:52.930 GCTI6 [default INFO] Listening on 127.0.0.1:8080 for HTTP requests
+2018-07-31T00:03:52.931 GCTI6 [Database INFO] Applying DB schema upgrade to version 2
+2018-07-31T00:03:52.931 GCTI6 [Database INFO] Applying DB schema upgrade to version 3
+2018-07-31T00:03:52.931 GCTI6 [Database INFO] Applying DB schema upgrade to version 4
+2018-07-31T00:03:52.931 GCTI6 [Database INFO] Applying DB schema upgrade to version 5
+2018-07-31T00:03:52.932 GCTI6 [Database INFO] Applying DB schema upgrade to version 6
+2018-07-31T00:03:52.932 GCTI6 [default INFO] * 
+2018-07-31T00:03:52.932 GCTI6 [default INFO] * The database has been initialized
+2018-07-31T00:03:52.932 GCTI6 [default INFO] * 
+2018-07-31T00:03:52.932 GCTI6 [Ledger INFO] Established genesis ledger, closing
+2018-07-31T00:03:52.932 GCTI6 [Ledger INFO] Root account seed: SDHOAMBNLGCE2MV5ZKIVZAQD3VCLGP53P3OBSBI6UN5L5XZI5TKHFQL4
+2018-07-31T00:03:52.932 GCTI6 [History INFO] Archive 'vs' has 'put' and 'get' commands, will be read and written
+2018-07-31T00:03:52.933 GCTI6 [default INFO] ll?level=debug -> {
+   "Global" : "Debug"
+}
+
+2018-07-31T00:03:52.933 GCTI6 [default INFO] Loading last known ledger
+2018-07-31T00:03:52.933 GCTI6 [Ledger INFO] Loaded last known ledger: [seq=1, hash=63d98f]
+2018-07-31T00:03:52.933 GCTI6 [Ledger DEBUG] Advancing LCL: [seq=1, hash=63d98f] -> [seq=1, hash=63d98f]
+2018-07-31T00:03:52.933 GCTI6 [Ledger DEBUG] New current ledger: seq=2
+2018-07-31T00:03:52.933 GCTI6 [Work DEBUG] resetting ntp-work
+2018-07-31T00:03:52.933 GCTI6 [Work DEBUG] advancing ntp-work
+2018-07-31T00:03:52.933 GCTI6 [Work DEBUG] all 0 children of ntp-work successful, scheduling run
+2018-07-31T00:03:52.933 GCTI6 [Work DEBUG] scheduling run of ntp-work
+2018-07-31T00:03:52.933 GCTI6 [Work DEBUG] starting ntp-work
+2018-07-31T00:03:52.933 GCTI6 [Work DEBUG] running ntp-work
+2018-07-31T00:03:52.933 GCTI6 [Work DEBUG] work ntp-work : WORK_PENDING -> WORK_RUNNING
+2018-07-31T00:03:52.940 GCTI6 [Work DEBUG] scheduling completion of ntp-work
+2018-07-31T00:03:52.940 GCTI6 [Work DEBUG] completed ntp-work
+2018-07-31T00:03:52.940 GCTI6 [Work DEBUG] work ntp-work : WORK_RUNNING -> WORK_SUCCESS
+2018-07-31T00:03:52.940 GCTI6 [Work DEBUG] notifying parent of successful ntp-work
+2018-07-31T00:04:27.934 GCTI6 [Herder WARNING] Lost track of consensus
+2018-07-31T00:04:27.934 GCTI6 [Herder WARNING] Out of sync context: {
+   "queue" : null,
+   "scp" : null,
+   "you" : "self"
+}
+
+2018-07-31T00:27:53.909 GCTI6 [default INFO] got signal 15, shutting down
+2018-07-31T00:27:54.910 GCTI6 [default INFO] Application destructing
+2018-07-31T00:27:54.910 GCTI6 [default DEBUG] Joining 2 worker threads
+2018-07-31T00:27:54.910 GCTI6 [default DEBUG] Joined all 2 threads
+2018-07-31T00:27:54.910 GCTI6 [default INFO] Application destroyed
+2018-07-31T00:27:54.910 GCTI6 [Fs DEBUG] deleting: buckets/tmp/bucket-4e3bdcd3616914b0
+2018-07-31T00:27:54.910 GCTI6 [default DEBUG] TmpDir deleted: buckets/tmp/bucket-4e3bdcd3616914b0
+2018-07-31T00:27:54.910 GCTI6 [default DEBUG] TmpDirManager cleaning: buckets/tmp
+2018-07-31T00:27:54.910 GCTI6 [Fs DEBUG] deleting: buckets/tmp
+2018-07-31T02:51:02.936 <startup> [default INFO] RUN_STANDALONE enabled in configuration file - node will not function properly with most networks
+2018-07-31T02:51:02.938 GCTI6 [default INFO] Starting starall-core starall-core 0.1
+2018-07-31T02:51:02.938 GCTI6 [default INFO] Config from starall-core_standalone.cfg
+2018-07-31T02:51:02.939 GCTI6 [Database INFO] Connecting to: sqlite3://:memory:
+2018-07-31T02:51:02.939 GCTI6 [SCP INFO] LocalNode::LocalNode@GCTI6 qSet: d05a3b
+2018-07-31T02:51:02.939 GCTI6 [default INFO] Listening on 127.0.0.1:11626 for HTTP requests
+2018-07-31T02:51:02.941 GCTI6 [Database INFO] Applying DB schema upgrade to version 2
+2018-07-31T02:51:02.941 GCTI6 [Database INFO] Applying DB schema upgrade to version 3
+2018-07-31T02:51:02.941 GCTI6 [Database INFO] Applying DB schema upgrade to version 4
+2018-07-31T02:51:02.941 GCTI6 [Database INFO] Applying DB schema upgrade to version 5
+2018-07-31T02:51:02.941 GCTI6 [Database INFO] Applying DB schema upgrade to version 6
+2018-07-31T02:51:02.941 GCTI6 [default INFO] * 
+2018-07-31T02:51:02.941 GCTI6 [default INFO] * The database has been initialized
+2018-07-31T02:51:02.941 GCTI6 [default INFO] * 
+2018-07-31T02:51:02.941 GCTI6 [Ledger INFO] Established genesis ledger, closing
+2018-07-31T02:51:02.941 GCTI6 [Ledger INFO] Root account seed: SDHOAMBNLGCE2MV5ZKIVZAQD3VCLGP53P3OBSBI6UN5L5XZI5TKHFQL4
+2018-07-31T02:51:02.942 GCTI6 [History INFO] Archive 'vs' has 'put' and 'get' commands, will be read and written
+2018-07-31T02:51:02.943 GCTI6 [default INFO] ll?level=debug -> {
+   "Global" : "Debug"
+}
+
+2018-07-31T02:51:02.943 GCTI6 [default INFO] Loading last known ledger
+2018-07-31T02:51:02.943 GCTI6 [Ledger INFO] Loaded last known ledger: [seq=1, hash=63d98f]
+2018-07-31T02:51:02.943 GCTI6 [Ledger DEBUG] Advancing LCL: [seq=1, hash=63d98f] -> [seq=1, hash=63d98f]
+2018-07-31T02:51:02.943 GCTI6 [Ledger DEBUG] New current ledger: seq=2
+2018-07-31T02:51:02.943 GCTI6 [Work DEBUG] resetting ntp-work
+2018-07-31T02:51:02.943 GCTI6 [Work DEBUG] advancing ntp-work
+2018-07-31T02:51:02.943 GCTI6 [Work DEBUG] all 0 children of ntp-work successful, scheduling run
+2018-07-31T02:51:02.943 GCTI6 [Work DEBUG] scheduling run of ntp-work
+2018-07-31T02:51:02.943 GCTI6 [Work DEBUG] starting ntp-work
+2018-07-31T02:51:02.943 GCTI6 [Work DEBUG] running ntp-work
+2018-07-31T02:51:02.943 GCTI6 [Work DEBUG] work ntp-work : WORK_PENDING -> WORK_RUNNING
+2018-07-31T02:51:02.950 GCTI6 [Work DEBUG] scheduling completion of ntp-work
+2018-07-31T02:51:02.950 GCTI6 [Work DEBUG] completed ntp-work
+2018-07-31T02:51:02.950 GCTI6 [Work DEBUG] work ntp-work : WORK_RUNNING -> WORK_SUCCESS
+2018-07-31T02:51:02.950 GCTI6 [Work DEBUG] notifying parent of successful ntp-work
+2018-07-31T02:51:37.944 GCTI6 [Herder WARNING] Lost track of consensus
+2018-07-31T02:51:37.944 GCTI6 [Herder WARNING] Out of sync context: {
+   "queue" : null,
+   "scp" : null,
+   "you" : "self"
+}
+
+2018-07-31T06:51:02.947 GCTI6 [default INFO] Performing maintenance
+2018-07-31T06:51:02.948 GCTI6 [History INFO] Trimming history <= ledger 0 (rmin=4294967295, qmin=1, lmin=0)
+2018-07-31T10:51:02.956 GCTI6 [default INFO] Performing maintenance
+2018-07-31T10:51:02.956 GCTI6 [History INFO] Trimming history <= ledger 0 (rmin=4294967295, qmin=1, lmin=0)
+2018-07-31T14:51:02.960 GCTI6 [default INFO] Performing maintenance
+2018-07-31T14:51:02.961 GCTI6 [History INFO] Trimming history <= ledger 0 (rmin=4294967295, qmin=1, lmin=0)
