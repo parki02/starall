@@ -1,0 +1,3 @@
+cp stellar-core.sln	starall-core.sln
+cp stellar-core.vcxproj	starall-core.vcxproj
+cp stellar-core.vcxproj.filters	starall-core.vcxproj.filters
