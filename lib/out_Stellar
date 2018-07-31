@@ -1,0 +1,5 @@
+./soci/src/core/backend-loader.cpp:    // Stellar-core customization: no dynamic loading of backends.
+./soci/src/core/backend-loader.cpp:    // Stellar-core customization: no dynamic loading of backends.
+./soci/src/core/backend-loader.cpp:    // Stellar-core customization: no dynamic loading of backends.
+./xdrpp/COPYING:Stellar Development Foundation may, at the foundation's option,
+./file2tmp.f:s/Stellar/Starall/g

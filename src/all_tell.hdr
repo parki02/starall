@@ -1,0 +1,8 @@
+./main/tmp/StellarCoreVersion.h
+./overlay/tmp/StellarXDR.h
+./xdr/tmp/Stellar-overlay.h
+./xdr/tmp/Stellar-transaction.h
+./xdr/tmp/Stellar-ledger-entries.h
+./xdr/tmp/Stellar-SCP.h
+./xdr/tmp/Stellar-types.h
+./xdr/tmp/Stellar-ledger.h

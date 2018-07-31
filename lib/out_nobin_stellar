@@ -1,0 +1,181 @@
+./Makefile:pkgdatadir = $(datadir)/stellar-core
+./Makefile:pkgincludedir = $(includedir)/stellar-core
+./Makefile:pkglibdir = $(libdir)/stellar-core
+./Makefile:pkglibexecdir = $(libexecdir)/stellar-core
+./Makefile:ACLOCAL = ${SHELL} /root/stellar-core/missing aclocal-1.15
+./Makefile:AUTOCONF = ${SHELL} /root/stellar-core/missing autoconf
+./Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/missing autoheader
+./Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/missing automake-1.15
+./Makefile:MAKEINFO = ${SHELL} /root/stellar-core/missing makeinfo
+./Makefile:PACKAGE = stellar-core
+./Makefile:PACKAGE_NAME = stellar-core
+./Makefile:PACKAGE_STRING = stellar-core 0.1
+./Makefile:PACKAGE_TARNAME = stellar-core
+./Makefile:PACKAGE_URL = http://www.stellar.org
+./Makefile:abs_builddir = /root/stellar-core/lib
+./Makefile:abs_srcdir = /root/stellar-core/lib
+./Makefile:abs_top_builddir = /root/stellar-core
+./Makefile:abs_top_srcdir = /root/stellar-core
+./Makefile:install_sh = ${SHELL} /root/stellar-core/install-sh
+
+./libsodium/test/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15
+./libsodium/test/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf
+./libsodium/test/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader
+./libsodium/test/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15
+./libsodium/test/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo
+./libsodium/test/Makefile:abs_builddir = /root/stellar-core/lib/libsodium/test
+./libsodium/test/Makefile:abs_srcdir = /root/stellar-core/lib/libsodium/test
+./libsodium/test/Makefile:abs_top_builddir = /root/stellar-core/lib/libsodium
+./libsodium/test/Makefile:abs_top_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/test/Makefile:install_sh = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh
+
+./libsodium/test/default/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15
+./libsodium/test/default/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf
+./libsodium/test/default/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader
+./libsodium/test/default/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15
+./libsodium/test/default/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo
+./libsodium/test/default/Makefile:abs_builddir = /root/stellar-core/lib/libsodium/test/default
+./libsodium/test/default/Makefile:abs_srcdir = /root/stellar-core/lib/libsodium/test/default
+./libsodium/test/default/Makefile:abs_top_builddir = /root/stellar-core/lib/libsodium
+./libsodium/test/default/Makefile:abs_top_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/test/default/Makefile:install_sh = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh
+
+./libsodium/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15
+./libsodium/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf
+./libsodium/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader
+./libsodium/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15
+./libsodium/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo
+./libsodium/Makefile:abs_builddir = /root/stellar-core/lib/libsodium
+./libsodium/Makefile:abs_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/Makefile:abs_top_builddir = /root/stellar-core/lib/libsodium
+./libsodium/Makefile:abs_top_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/Makefile:install_sh = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh
+
+./libsodium/config.status:ac_pwd='/root/stellar-core/lib/libsodium'
+./libsodium/config.status:S["install_sh"]="${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh"
+./libsodium/config.status:S["MAKEINFO"]="${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo"
+./libsodium/config.status:S["AUTOHEADER"]="${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader"
+./libsodium/config.status:S["AUTOMAKE"]="${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15"
+./libsodium/config.status:S["AUTOCONF"]="${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf"
+./libsodium/config.status:S["ACLOCAL"]="${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15"
+
+./libsodium/config.log:/root/stellar-core/lib/libsodium/conftest.c:85: undefined reference to `arc4random'
+./libsodium/config.log:/root/stellar-core/lib/libsodium/conftest.c:85: undefined reference to `arc4random_buf'
+./libsodium/config.log:/root/stellar-core/lib/libsodium/conftest.c:89: undefined reference to `memset_s'
+./libsodium/config.log:/root/stellar-core/lib/libsodium/conftest.c:89: undefined reference to `explicit_bzero'
+./libsodium/config.log:ACLOCAL='${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15'
+./libsodium/config.log:AUTOCONF='${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf'
+./libsodium/config.log:AUTOHEADER='${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader'
+./libsodium/config.log:AUTOMAKE='${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15'
+./libsodium/config.log:MAKEINFO='${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo'
+./libsodium/config.log:install_sh='${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh'
+
+./libsodium/builds/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15
+./libsodium/builds/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf
+./libsodium/builds/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader
+./libsodium/builds/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15
+./libsodium/builds/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo
+./libsodium/builds/Makefile:abs_builddir = /root/stellar-core/lib/libsodium/builds
+./libsodium/builds/Makefile:abs_srcdir = /root/stellar-core/lib/libsodium/builds
+./libsodium/builds/Makefile:abs_top_builddir = /root/stellar-core/lib/libsodium
+./libsodium/builds/Makefile:abs_top_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/builds/Makefile:install_sh = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh
+
+./libsodium/dist-build/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15
+./libsodium/dist-build/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf
+./libsodium/dist-build/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader
+./libsodium/dist-build/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15
+./libsodium/dist-build/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo
+./libsodium/dist-build/Makefile:abs_builddir = /root/stellar-core/lib/libsodium/dist-build
+./libsodium/dist-build/Makefile:abs_srcdir = /root/stellar-core/lib/libsodium/dist-build
+./libsodium/dist-build/Makefile:abs_top_builddir = /root/stellar-core/lib/libsodium
+./libsodium/dist-build/Makefile:abs_top_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/dist-build/Makefile:install_sh = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh
+
+./libsodium/contrib/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15
+./libsodium/contrib/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf
+./libsodium/contrib/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader
+./libsodium/contrib/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15
+./libsodium/contrib/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo
+./libsodium/contrib/Makefile:abs_builddir = /root/stellar-core/lib/libsodium/contrib
+./libsodium/contrib/Makefile:abs_srcdir = /root/stellar-core/lib/libsodium/contrib
+./libsodium/contrib/Makefile:abs_top_builddir = /root/stellar-core/lib/libsodium
+./libsodium/contrib/Makefile:abs_top_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/contrib/Makefile:install_sh = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh
+
+./libsodium/msvc-scripts/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15
+./libsodium/msvc-scripts/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf
+./libsodium/msvc-scripts/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader
+./libsodium/msvc-scripts/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15
+./libsodium/msvc-scripts/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo
+./libsodium/msvc-scripts/Makefile:abs_builddir = /root/stellar-core/lib/libsodium/msvc-scripts
+./libsodium/msvc-scripts/Makefile:abs_srcdir = /root/stellar-core/lib/libsodium/msvc-scripts
+./libsodium/msvc-scripts/Makefile:abs_top_builddir = /root/stellar-core/lib/libsodium
+./libsodium/msvc-scripts/Makefile:abs_top_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/msvc-scripts/Makefile:install_sh = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh
+
+./libsodium/src/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15
+./libsodium/src/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf
+./libsodium/src/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader
+./libsodium/src/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15
+./libsodium/src/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo
+./libsodium/src/Makefile:abs_builddir = /root/stellar-core/lib/libsodium/src
+./libsodium/src/Makefile:abs_srcdir = /root/stellar-core/lib/libsodium/src
+./libsodium/src/Makefile:abs_top_builddir = /root/stellar-core/lib/libsodium
+./libsodium/src/Makefile:abs_top_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/src/Makefile:install_sh = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh
+
+./libsodium/src/libsodium/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15
+./libsodium/src/libsodium/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf
+./libsodium/src/libsodium/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader
+./libsodium/src/libsodium/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15
+./libsodium/src/libsodium/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo
+./libsodium/src/libsodium/Makefile:abs_builddir = /root/stellar-core/lib/libsodium/src/libsodium
+./libsodium/src/libsodium/Makefile:abs_srcdir = /root/stellar-core/lib/libsodium/src/libsodium
+./libsodium/src/libsodium/Makefile:abs_top_builddir = /root/stellar-core/lib/libsodium
+./libsodium/src/libsodium/Makefile:abs_top_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/src/libsodium/Makefile:install_sh = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh
+
+./libsodium/src/libsodium/include/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing aclocal-1.15
+./libsodium/src/libsodium/include/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoconf
+./libsodium/src/libsodium/include/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing autoheader
+./libsodium/src/libsodium/include/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing automake-1.15
+./libsodium/src/libsodium/include/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/missing makeinfo
+./libsodium/src/libsodium/include/Makefile:abs_builddir = /root/stellar-core/lib/libsodium/src/libsodium/include
+./libsodium/src/libsodium/include/Makefile:abs_srcdir = /root/stellar-core/lib/libsodium/src/libsodium/include
+./libsodium/src/libsodium/include/Makefile:abs_top_builddir = /root/stellar-core/lib/libsodium
+./libsodium/src/libsodium/include/Makefile:abs_top_srcdir = /root/stellar-core/lib/libsodium
+./libsodium/src/libsodium/include/Makefile:install_sh = ${SHELL} /root/stellar-core/lib/libsodium/build-aux/install-sh
+
+./xdrpp/Makefile:ACLOCAL = ${SHELL} /root/stellar-core/missing aclocal-1.15
+./xdrpp/Makefile:AUTOCONF = ${SHELL} /root/stellar-core/missing autoconf
+./xdrpp/Makefile:AUTOHEADER = ${SHELL} /root/stellar-core/missing autoheader
+./xdrpp/Makefile:AUTOMAKE = ${SHELL} /root/stellar-core/missing automake-1.15
+./xdrpp/Makefile:MAKEINFO = ${SHELL} /root/stellar-core/missing makeinfo
+./xdrpp/Makefile:abs_builddir = /root/stellar-core/lib/xdrpp
+./xdrpp/Makefile:abs_srcdir = /root/stellar-core/lib/xdrpp
+./xdrpp/Makefile:abs_top_builddir = /root/stellar-core/lib/xdrpp
+./xdrpp/Makefile:abs_top_srcdir = /root/stellar-core/lib/xdrpp
+./xdrpp/Makefile:install_sh = ${SHELL} /root/stellar-core/install-sh
+
+./xdrpp/config.status:ac_pwd='/root/stellar-core/lib/xdrpp'
+./xdrpp/config.status:S["install_sh"]="${SHELL} /root/stellar-core/install-sh"
+./xdrpp/config.status:S["MAKEINFO"]="${SHELL} /root/stellar-core/missing makeinfo"
+./xdrpp/config.status:S["AUTOHEADER"]="${SHELL} /root/stellar-core/missing autoheader"
+./xdrpp/config.status:S["AUTOMAKE"]="${SHELL} /root/stellar-core/missing automake-1.15"
+./xdrpp/config.status:S["AUTOCONF"]="${SHELL} /root/stellar-core/missing autoconf"
+./xdrpp/config.status:S["ACLOCAL"]="${SHELL} /root/stellar-core/missing aclocal-1.15"
+
+./xdrpp/config.log:/root/stellar-core/lib/xdrpp/lex.yy.c:1200: undefined reference to `yywrap'
+./xdrpp/config.log:/root/stellar-core/lib/xdrpp/lex.yy.c:894: undefined reference to `yywrap'
+./xdrpp/config.log:/root/stellar-core/lib/xdrpp/conftest.l:18: undefined reference to `yywrap'
+./xdrpp/config.log:ACLOCAL='${SHELL} /root/stellar-core/missing aclocal-1.15'
+./xdrpp/config.log:AUTOCONF='${SHELL} /root/stellar-core/missing autoconf'
+./xdrpp/config.log:AUTOHEADER='${SHELL} /root/stellar-core/missing autoheader'
+./xdrpp/config.log:AUTOMAKE='${SHELL} /root/stellar-core/missing automake-1.15'
+./xdrpp/config.log:MAKEINFO='${SHELL} /root/stellar-core/missing makeinfo'
+./xdrpp/config.log:install_sh='${SHELL} /root/stellar-core/install-sh'
+
+./xdrpp/xdrpp-uninstalled.pc:Cflags: -I/root/stellar-core/lib/xdrpp -I${pcfiledir}
+
+./xdrpp/doc/rfc5531.txt:                                      200003    stellar_name_prog
