@@ -195,3 +195,5 @@
 2018-07-31T10:51:02.956 GCTI6 [History INFO] Trimming history <= ledger 0 (rmin=4294967295, qmin=1, lmin=0)
 2018-07-31T14:51:02.960 GCTI6 [default INFO] Performing maintenance
 2018-07-31T14:51:02.961 GCTI6 [History INFO] Trimming history <= ledger 0 (rmin=4294967295, qmin=1, lmin=0)
+2018-07-31T18:51:02.976 GCTI6 [default INFO] Performing maintenance
+2018-07-31T18:51:02.977 GCTI6 [History INFO] Trimming history <= ledger 0 (rmin=4294967295, qmin=1, lmin=0)

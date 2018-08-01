@@ -1,0 +1,12 @@
+./INSTALL-Windows.md:- `git clone PATH_TO_STELLAR_CORE`
+./docs/s_starall-core.1:Note that if you do not have a STELLAR_NETWORK_ID environment variable,
+./docs/software/s_commands.md:  Note that if you do not have a STELLAR_NETWORK_ID environment
+./docs/save_stellar/stellar-core.1.in:Note that if you do not have a STELLAR_NETWORK_ID environment variable,
+./docs/save_stellar/stellar-core.1:Note that if you do not have a STELLAR_NETWORK_ID environment variable,
+./docs/s_starall-core.1.in:Note that if you do not have a STELLAR_NETWORK_ID environment variable,
+./src/test/s_test.cpp:bool force_sqlite = (std::getenv("STELLAR_FORCE_SQLITE") != nullptr);
+./src/test/s_test.cpp:    LOG(INFO) << "Testing starall-core " << STELLAR_CORE_VERSION;
+./src/process/s_ProcessManagerImpl.cpp:#define STELLAR_CORE_REAL_TIMER_FOR_CERTAIN_NOT_JUST_VIRTUAL_TIME
+./src/util/s_Timer.h:#ifdef STELLAR_CORE_REAL_TIMER_FOR_CERTAIN_NOT_JUST_VIRTUAL_TIME
+./src/history/s_HistoryArchive.cpp:HistoryArchiveState::HistoryArchiveState() : server(STELLAR_CORE_VERSION)
+./src/history/s_HistoryArchive.cpp:    : server(STELLAR_CORE_VERSION), currentLedger(ledgerSeq)

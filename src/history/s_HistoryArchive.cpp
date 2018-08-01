@@ -265,7 +265,7 @@ HistoryArchiveState::allBuckets() const
     return std::vector<std::string>(buckets.begin(), buckets.end());
 }
 
-HistoryArchiveState::HistoryArchiveState() : server(STARALL_CORE_VERSION)
+HistoryArchiveState::HistoryArchiveState() : server(STELLAR_CORE_VERSION)
 {
     uint256 u;
     std::string s = binToHex(u);
@@ -280,7 +280,7 @@ HistoryArchiveState::HistoryArchiveState() : server(STARALL_CORE_VERSION)
 
 HistoryArchiveState::HistoryArchiveState(uint32_t ledgerSeq,
                                          BucketList const& buckets)
-    : server(STARALL_CORE_VERSION), currentLedger(ledgerSeq)
+    : server(STELLAR_CORE_VERSION), currentLedger(ledgerSeq)
 {
     for (uint32_t i = 0; i < BucketList::kNumLevels; ++i)
     {

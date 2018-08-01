@@ -213,7 +213,7 @@ class VirtualTimer : private NonMovableOrCopyable
 // This is almost certainly not the type you want to use. So much so
 // that we will not even show it to you unless you define an unwieldy
 // symbol:
-#ifdef STARALL_CORE_REAL_TIMER_FOR_CERTAIN_NOT_JUST_VIRTUAL_TIME
+#ifdef STELLAR_CORE_REAL_TIMER_FOR_CERTAIN_NOT_JUST_VIRTUAL_TIME
 class RealTimer : public asio::basic_waitable_timer<std::chrono::system_clock>
 {
   public:

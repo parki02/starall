@@ -25,7 +25,7 @@ current working directory, but this default can be changed by the
 \f[C]\-\-conf\f[] command\-line option.
 The configuration file is in TOML syntax.
 The full set of supported directives can be found in
-\f[C]%prefix%/share/doc/starall\-core_example.cfg\f[].
+\f[C]/usr/local/share/doc/starall\-core_example.cfg\f[].
 .SS Command line options
 .IP \[bu] 2
 \f[B]\-\-?\f[] or \f[B]\-\-help\f[]: Print the available command line
@@ -113,7 +113,7 @@ in which case the transaction envelope is read from standard input and
 the signing key is read from \f[C]/dev/tty\f[].
 In either event, if the signing key appears to be coming from a
 terminal, starall\-core disables echo.
-Note that if you do not have a STARALL_NETWORK_ID environment variable,
+Note that if you do not have a STELLAR_NETWORK_ID environment variable,
 then before this argument you must specify the \-\-netid option.
 .IP \[bu] 2
 \f[B]\-\-base64\f[]: When preceding \-\-printtxn or \-\-signtxn, alters
@@ -312,7 +312,7 @@ Note that F and T are seed strings but can also be specified as "root"
 as a shorthand for the root account for the test instance.
 .SH EXAMPLES
 .PP
-See \f[C]%prefix%/share/doc/*.cfg\f[] for some example starall\-core
+See \f[C]/usr/local/share/doc/*.cfg\f[] for some example starall\-core
 configuration files
 .SH FILES
 .TP

@@ -46,7 +46,7 @@ static bool gTestAllVersions{false};
 static std::vector<uint32> gVersionsToTest;
 static int gBaseInstance{0};
 
-bool force_sqlite = (std::getenv("STARALL_FORCE_SQLITE") != nullptr);
+bool force_sqlite = (std::getenv("STELLAR_FORCE_SQLITE") != nullptr);
 
 Config const&
 getTestConfig(int instanceNumber, Config::TestDbMode mode)
@@ -160,7 +160,7 @@ test(int argc, char* const* argv, el::Level ll,
     Logging::setLoggingToFile(cfg.LOG_FILE_PATH);
     Logging::setLogLevel(ll, nullptr);
 
-    LOG(INFO) << "Testing starall-core " << STARALL_CORE_VERSION;
+    LOG(INFO) << "Testing starall-core " << STELLAR_CORE_VERSION;
     LOG(INFO) << "Logging to " << cfg.LOG_FILE_PATH;
 
     using namespace Catch;

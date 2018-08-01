@@ -45,7 +45,7 @@ forcescp doesn't change the requirements for quorum so although this node will e
   transaction envelope is read from standard input and the signing key
   is read from `/dev/tty`.  In either event, if the signing key
   appears to be coming from a terminal, starall-core disables echo.
-  Note that if you do not have a STARALL_NETWORK_ID environment
+  Note that if you do not have a STELLAR_NETWORK_ID environment
   variable, then before this argument you must specify the --netid
   option.
 * **--base64**: When preceding --printtxn or --signtxn, alters the
